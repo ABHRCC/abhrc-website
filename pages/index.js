@@ -1,4 +1,5 @@
 
+import Link from 'next/link';
 import Head from 'next/head';
 
 export default function Home() {
@@ -22,24 +23,24 @@ export default function Home() {
         <section>
           <h2>Courses Offered</h2>
           <ul>
-            <li>Human Rights Guidance Program</li>
-            <li>Executive Leadership Development Program</li>
-            <li>Advanced Leadership Development Program</li>
-            <li>Employee Relations Coaching Program</li>
-            <li>Career Coaching Program</li>
-            <li>Business Strategy Course</li>
-            <li>Employee Duties & Rights</li>
+            <li><Link href="/courses/human-rights-guidance">Human Rights Guidance Program</Link></li>
+            <li><Link href="/courses/executive-leadership">Executive Leadership Development Program</Link></li>
+            <li><Link href="/courses/advanced-leadership">Advanced Leadership Development Program</Link></li>
+            <li><Link href="/courses/employee-relations-coaching">Employee Relations Coaching Program</Link></li>
+            <li><Link href="/courses/career-coaching">Career Coaching Program</Link></li>
+            <li><Link href="/courses/business-strategy">Business Strategy Course</Link></li>
+            <li><Link href="/courses/employee-duties-rights">Employee Duties & Rights</Link></li>
           </ul>
         </section>
 
         <section>
           <h2>Services Provided</h2>
           <ul>
-            <li>Financial Consultation</li>
-            <li>Application for a US Green Card</li>
-            <li>Operational Analysis</li>
-            <li>Business Analytics Report</li>
-            <li>Business Plan Review</li>
+            <li><Link href="/services/financial-consultation">Financial Consultation</Link></li>
+            <li><Link href="/services/green-card-application">Application for a US Green Card</Link></li>
+            <li><Link href="/services/operational-analysis">Operational Analysis</Link></li>
+            <li><Link href="/services/business-analytics-report">Business Analytics Report</Link></li>
+            <li><Link href="/services/business-plan-review">Business Plan Review</Link></li>
           </ul>
         </section>
 
